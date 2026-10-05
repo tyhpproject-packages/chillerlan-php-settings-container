@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/chillerlan-php-settings-container",
+    "description": "Tyhp type definitions for chillerlan/php-settings-container 3.3.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.3.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/chillerlan-php-settings-container-impl": "~3.3.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/chillerlan-php-settings-container-impl"
+        }
+    }
+}
